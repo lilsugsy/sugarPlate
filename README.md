@@ -1,4 +1,4 @@
-# sugarPlate
+# :candy: SugarPlate 
 A boilerplate for developing creative websites using javascript
 
 ## Getting Started

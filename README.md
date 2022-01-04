@@ -7,7 +7,7 @@ You need to have Node.js and npm installed in your machine, these are our only d
 
 ```bash
 # Clone the project.
-git clone https://github.com/lhbzr/bizar.ro.git
+git clone https://github.com/lilsugsy/sugarPlate.git
 
 # Install npm depedencies.
 npm install

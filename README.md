@@ -1,2 +1,2 @@
-# sugarsPlate
+# sugarPlate
 A boilerplate for creative websites

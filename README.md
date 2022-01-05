@@ -20,7 +20,7 @@ npm start
 To add a page to the website, you need to do the following... 
 
 ### Add route
-Using Express.js, you can define your routes and query in the main file.
+Using Express.js, you can define your routes and query in the main file.<br>
 Add a route via the app.js file, passing through the data you need. Here is an example:
 
 ```js

@@ -42,6 +42,8 @@ The CSS/SASS is stored in the 'styles' folder. Each page should have it's own fo
 - styles
   - index.scss
   - base
+    - fonts.scss
+    - global.scss
     - reset.scss
   - utils
     - functions.scss

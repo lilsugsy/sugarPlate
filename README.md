@@ -1,3 +1,6 @@
+
+![alt text](https://raw.githubusercontent.com/lilsugsy/sugarPlate/main/sugarplate.jpg)
+
 # :candy: SugarPlate 
 A boilerplate for developing creative websites using javascript
 

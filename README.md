@@ -55,7 +55,21 @@ The CSS/SASS is stored in the 'styles' folder. Each page should have it's own fo
       - about.scss
       - about_gallery.scss
 
-Using the above file structure, it makes it nice and simple to modify, manage and maintain your code. All of your individual .scss files are inmported into the main index.scss at the root of the 'styles' folder.
+Using the above file structure, it makes it nice and simple to modify, manage and maintain your code. All of your individual .scss files are inmported into the main index.scss at the root of the 'styles' folder. Here is an example of what your index.scss file should look like:
+
+
+```scss
+@import './base/fonts';
+@import './base/global';
+@import './base/reset';
+
+@import './pages/home/home';
+
+@import './pages/about/about';
+@import './pages/about/header';
+@import './pages/about/gallery';
+@import './pages/about/sections';
+```
 
 
 ## Languages and Tools

@@ -38,6 +38,8 @@ app.get('/about', (request, response) => {
 When routing the url, you can choose the view you would like to render. You can create a new view in the "views/pages" folder. A good tip is to extend a base layout that has been set up.
 
 ## Adding/modifying styles
+
+### Structure
 The CSS/SASS is stored in the 'styles' folder. Each page should have it's own folder. You can create as many folders as you like. We recomment the following:
 - styles
   - index.scss
@@ -57,7 +59,8 @@ The CSS/SASS is stored in the 'styles' folder. Each page should have it's own fo
       - about.scss
       - about_gallery.scss
 
-Using the above file structure, it makes it nice and simple to modify, manage and maintain your code. All of your individual .scss files are inmported into the main index.scss at the root of the 'styles' folder. Here is an example of what your index.scss file should look like:
+### Adding to the main index.scss file
+Using the above file structure, it makes it nice and simple to modify, manage and maintain your code. Once you have added your files/styles, you can import them into the main index.scss at the root of the 'styles' folder. Here is an example of what your index.scss file should look like:
 
 
 ```scss

@@ -37,6 +37,26 @@ app.get('/about', (request, response) => {
 ### Add view
 When routing the url, you can choose the view you would like to render. You can create a new view in the "views/pages" folder. A good tip is to extend a base layout that has been set up.
 
+## Adding/modifying styles
+The CSS/SASS is stored in the 'styles' folder. Each page should have it's own folder. You can create as many folders as you like. We recomment the following:
+- styles
+  - index.scss
+  - base
+    - reset.scss
+  - utils
+    - functions.scss
+  - pages
+    - home
+      - home.scss
+      - home_gallery.scss
+      - home_component_2.scss
+      - etc..
+    - about
+      - about.scss
+      - about_gallery.scss
+
+Using the above file structure, it makes it nice and simple to modify, manage and maintain your code. All of your individual .scss files are inmported into the main index.scss at the root of the 'styles' folder.
+
 
 ## Languages and Tools
 <p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://pugjs.org" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://prismic.io/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/prismicio/awesome-prismic/master/media/logo.svg" alt="express" width="40" height="40"/> </a> </p>

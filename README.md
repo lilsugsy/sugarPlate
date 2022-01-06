@@ -58,6 +58,7 @@ The CSS/SASS is stored in the 'styles' folder. Each page should have it's own fo
     - about
       - about.scss
       - about_gallery.scss
+      - etc..
 
 ### Adding to the main index.scss file
 Using the above file structure, it makes it nice and simple to modify, manage and maintain your code. Once you have added your files/styles, you can import them into the main index.scss at the root of the 'styles' folder. Here is an example of what your index.scss file should look like:
@@ -69,11 +70,11 @@ Using the above file structure, it makes it nice and simple to modify, manage an
 @import './base/reset';
 
 @import './pages/home/home';
+@import './pages/home/home_gallery';
+@import './pages/home/home_component_2';
 
 @import './pages/about/about';
-@import './pages/about/header';
-@import './pages/about/gallery';
-@import './pages/about/sections';
+@import './pages/about/about_gallery';
 ```
 
 

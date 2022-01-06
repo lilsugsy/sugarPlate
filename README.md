@@ -43,7 +43,7 @@ When routing the url, you can choose the view you would like to render. You can 
 ## Adding/modifying styles
 
 ### Structure
-The CSS/SASS is stored in the 'styles' folder. Each page should have it's own folder. You can create as many folders as you like. We recomment the following:
+The CSS/SASS is stored in the 'styles' folder. Each page should have it's own folder. You can create as many folders as you like. We recommend the following:
 - styles
   - index.scss
   - base

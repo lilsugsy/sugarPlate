@@ -42,7 +42,10 @@ When routing the url, you can choose the view you would like to render. You can 
 
 ## Adding/modifying styles
 
-### Structure
+### Architecture
+It is recomended to use the [7-1 Sass architecture](https://sass-guidelin.es/#the-7-1-pattern):
+
+### Example
 The CSS/SASS is stored in the 'styles' folder. Each page should have it's own folder. You can create as many folders as you like. We recommend the following:
 - styles
   - index.scss
